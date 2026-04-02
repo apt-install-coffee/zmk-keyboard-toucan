@@ -7,7 +7,10 @@
 #define SYM  2
 #define ADJ  3
 
-&mt { tapping-term-ms = <250>; };
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "balanced";
+};
 
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
