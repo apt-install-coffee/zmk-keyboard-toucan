@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
@@ -88,7 +89,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&DUT_PW  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp EQUAL  &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &trans  &trans  &trans  &kp PIPE  &D_LBRACK  &D_RBRACK  &trans  &kp MINUS  &trans  &trans  &kp UNDER  &trans  &DUT_PW  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans
+&DUT_PW  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp EQUAL  &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &trans  &trans  &ext_power EP_TOG  &kp PIPE  &D_LBRACK  &D_RBRACK  &trans  &kp MINUS  &trans  &trans  &kp UNDER  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
